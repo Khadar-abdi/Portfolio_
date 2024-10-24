@@ -39,7 +39,7 @@ const Projects = () => {
                 setLoading(true)
 
                 // Fetch private repositories from the custom API route
-                const response = await axios.get<Repo[]>(`${API_URL}api/repos`);
+                const response = await axios.get<Repo[]>(API_URL);
                 console.log(response)
                 setRepos(response.data);
                 setLoading(false)
