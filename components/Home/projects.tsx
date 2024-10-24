@@ -11,7 +11,7 @@ import axios from 'axios';
 import { BiLink } from 'react-icons/bi';
 import { TbBrandGithubFilled } from 'react-icons/tb';
 import Loading from '../loading';
- 
+import { API_URL } from '@/lib/config'
 
 
 
@@ -39,7 +39,7 @@ const Projects = () => {
                 setLoading(true)
 
                 // Fetch private repositories from the custom API route
-                const response = await axios.get<Repo[]>('api/repos');
+                const response = await axios.get<Repo[]>(`${API_URL}/api/repos`);
                 console.log(response)
                 setRepos(response.data);
                 setLoading(false)
