@@ -1,1 +1,1 @@
-export const API_URL = process.env.NODE_ENV=== 'production'? 'https://khaderportfolio-m1810al08-khaders-projects-9f4ad4e2.vercel.app': 'http://localhost:3000';
+export const API_URL = process.env.NODE_ENV=== 'production'? 'https://vercel.com/api/toolbar/link/khaderportfolio.vercel.app?via=deployment-domains-list&p=1&page=/': 'http://localhost:3000';
