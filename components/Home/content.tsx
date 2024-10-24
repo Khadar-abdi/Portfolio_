@@ -1,7 +1,6 @@
 import React from 'react'
 import khader from '@/images/khader.jpg'
 import Image from 'next/image'
-import { BackgroundLines } from '../backgroundLines'
  
 
  
