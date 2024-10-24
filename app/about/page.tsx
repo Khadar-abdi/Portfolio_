@@ -2,6 +2,7 @@ import React from 'react'
 import AboutMe from '@/components/About/aboutMe'
 import Experiance from '@/components/About/Experiance'
 import Education from '@/components/About/Education'
+export const dynamic = 'force-dynamic';
 
 const About = () => {
   return (

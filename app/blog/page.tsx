@@ -1,5 +1,7 @@
 import React from 'react'
 
+export const dynamic = 'force-dynamic';
+
 const page = () => {
   return (
     <div className=' flex flex-col justify-center items-center h-[348px] '>
