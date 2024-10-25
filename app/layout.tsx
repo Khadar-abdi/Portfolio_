@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "../components/header";
 import { ThemeProvider } from "next-themes";
 import Footer from "@/components/Footer";
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -37,6 +37,7 @@ export default function RootLayout({
           <main className="flex flex-col xl:px-56 lg:px-52 md:px-20  ">
             <Header />
             {children}
+            <Analytics />
             <Footer />
           </main>
 
