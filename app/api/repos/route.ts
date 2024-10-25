@@ -29,7 +29,7 @@ export  async function GET() {
         Accept: 'application/vnd.github.v3+json',
       },
       params: {
-        type: 'private',
+        type: 'public',
         sort: 'created',
       },
     });
