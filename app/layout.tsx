@@ -34,11 +34,12 @@ export default function RootLayout({
         >
 
 
-          <main className="flex flex-col xl:px-56 lg:px-52 md:px-20  ">
             <Header />
-            {children}
+          <main className="flex flex-col px-0 xl:px-56 lg:px-52 md:px-20 lg:pt-20 ">
+        
+             {children} 
             <Analytics />
-            <Footer />
+            <Footer /> 
           </main>
 
         </ThemeProvider>

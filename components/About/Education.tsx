@@ -9,7 +9,7 @@ const Education = () => {
         <div className='flex flex-col pt-5'>
             <h2 className='text-[#42446E] dark:text-[#a3a6e2] font-bold text-2xl font-pop'>Education</h2>
 
-            <div className='flex lg:flex-row  md:flex-row  flex-col  lg:justify-between  md:justify-between  items-start pt-10   border-slate-100 border-b-[1px] pb-3  dark:border-slate-600 '>
+            <div className='flex lg:flex-row  md:flex-row  flex-col  lg:justify-between  md:justify-between  items-start pt-10  hover:duration-400 hover:rounded-badge hover:bg-slate-900 hover:px-1    border-slate-100 border-b-[1px] pb-3  dark:border-slate-600 '>
                 <div className='flex  lg:flex-col md:flex-col flex-row  gap-7'>
                     <span className='text-base text-[#666666] dark:text-[#b3b2b2] font-pop'>BSc Computer Science</span>
                     <div className='flex lg:flex-row md:flex-row flex-col  gap-2 lg:gap-7 md:gap-6 pt-1'>

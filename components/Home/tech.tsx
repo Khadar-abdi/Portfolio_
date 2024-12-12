@@ -16,54 +16,54 @@ const tech = () => {
                 <h4 className='font-pop text-[#666666] dark:text-[#cecdcd] text-base font-extralight '> Technologies I’ve been working with recently</h4>
             </div>
             <div className='py-10 flex flex-row flex-wrap   gap-9  justify-center items-center' >
-                <div className="tooltip   " data-tip="Html5">
+                <div   data-tip="Html5">
 
                     <span className=' btn bg-transparent border-none hover:bg-transparent  text-5xl text-slate-500 hover:text-orange-400 duration-500    '><FaHtml5 /></span>
                 </div>
-                <div className="tooltip " data-tip="Html5">
+                <div className="-top " data-tip="Html5">
                     <span className=' btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-sky-400  duration-500 '><FaCss3Alt /></span>
                 </div>
-                <div className="tooltip " data-tip="JavaScript">
+                <div className=" " data-tip="JavaScript">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-yellow-400  duration-500  '><DiJavascript1 /></span>
                 </div>
-                <div className="tooltip " data-tip="React">
+                <div className=" " data-tip="React">
 
                 <span className=' btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-sky-400 duration-500  '><DiReact /></span>
                 </div>
-                <div className="tooltip " data-tip="NextJs">
+                <div className=" " data-tip="NextJs">
                     
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 dark:hover:text-white  hover:text-black  duration-500  '><RiNextjsLine /></span>
                 </div>
-                <div className="tooltip " data-tip="TaiwlwindCss">
+                <div className=" " data-tip="TaiwlwindCss">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-sky-400  duration-500 '><RiTailwindCssFill /></span>
                 </div>
-                <div className="tooltip " data-tip="NodeJs">
+                <div className=" " data-tip="NodeJs">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-green-600  duration-500 '><FaNodeJs /></span>
                 </div>
-                <div className="tooltip " data-tip="Expressjs">
+                <div className=" " data-tip="Expressjs">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-white  duration-500 '><SiExpress /></span>
                 </div>
-                <div className="tooltip " data-tip="Postman">
+                <div className=" " data-tip="Postman">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-orange-600 duration-500 '><SiPostman /></span>
                 </div>
-                <div className="tooltip " data-tip="Git">
+                <div className=" " data-tip="Git">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-[#DE4C36]  duration-500  '><FaGitAlt /></span>
                 </div>
-                <div className="tooltip " data-tip="GitHub">
+                <div className=" " data-tip="GitHub">
 
                 <span className=' btn p-3 rounded-full  bg-transparent text-dark border-slate-500 border-2 dark:border-slate-700  hover:bg-gray-950 hover:text-white  duration-500     text-2xl dark:text-white dark:bg-slate-700   dark:hover:bg-gray-950    dark:duration-500'  ><TbBrandGithubFilled /></span>
                 </div>
-                <div className="tooltip " data-tip="MongoDb">
+                <div className=" " data-tip="MongoDb">
 
                 <span className='btn bg-transparent border-none hover:bg-transparent text-5xl text-slate-500 hover:text-[#41cc80]  duration-500  '><DiMongodb /></span>
                 </div>
-                <div className="tooltip " data-tip="shadcn">
+                <div className=" " data-tip="shadcn">
 
                 <span className='btn bg-transparent border-none hover:bg-black text-3xl text-slate-500 hover:text-[#ffffff]  duration-500  '><SiShadcnui /></span>
                 </div>

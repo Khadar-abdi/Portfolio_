@@ -65,38 +65,12 @@ const Projects = () => {
             </div>
 
 
-{/* 
-            <div className='flex  flex-wrap  gap-5 py-10 justify-center items-center'>
-                {repos.map((repo, index) => (
-                    <div key={repo.id} className="card bg-base-100 w-56 shadow-xl ">
-                        <figure>
-                            <Image
-                                src={Khader}
-                                alt='khader'
-                            />
-                        </figure>
-                        <div className="card-body dark:text-slate-500 py-5 text-slate-500 dark:bg-slate-900">
-                            <h2 className="card-title dark:text-slate-500 flex-wrap flex-col text-sm text-clip truncate">
-                                {repo.name}
-                            </h2>
-                            <div className={`badge badge-secondary dark:text-slate-300 text-end ${index !== 0 && 'hidden'}`}>NEW</div>
-                            <p className='text-wrap text-xs '> {repo.description === null ? repo.name : repo.description}</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline  ">{repo.language}</div>
 
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                ))}
-            </div> */}
             {loading && <Loading/>}
 
             <div className='flex  flex-wrap  gap-5 py-10 justify-center items-center '>
             {repos.map((repo) => (
-                <div key={repo.id} className=" bg-transparent dark:bg-slate-900 rounded-lg  w-64 h-96 shadow-sm ">
+                <div key={repo.id} className=" bg-transparent dark:bg-slate-900 rounded-lg  w-64 h-96 shadow-md ">
 
                     <div className='w-fit '>
                     <Image src={repo.language === "TypeScript" ? nextjswhite : repo.language=== "JavaScript"? react : htmlcss } className='object-cover w-full rounded-md' alt={'project image'}/>

@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 const About = () => {
   return (
     <>
-    <div className='flex flex-col lg:w-[65%] md:w-[90%] p-5 w-screen md:pr-8 my-6 '>
+    <div className='flex flex-col lg:w-[65%] md:w-[90%] p-5 w-screen md:pr-8 my-6 mt-20 '>
     <AboutMe/>
     <Experiance/>
     <Education/>
