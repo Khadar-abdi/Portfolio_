@@ -13,7 +13,7 @@ const Content = () => {
 
       <div className='flex flex-wrap justify-center text-center '>
         <div
-          className="font-mono justify-center    items-center flex flex-col     whitespace-pre text text-2xl md:text-2xl lg:text-4xl text-center md:text-start lg:text-start font-bold text-[#42446E] leading-snug dark:text-[#d1d2e9]"
+          className="font-mono justify-center    items-center flex flex-col     whitespace-pre text text-xl md:text-2xl lg:text-3xl text-center md:text-start lg:text-start font-bold text-[#42446E] leading-snug dark:text-[#d1d2e9]"
         >
           Hi 👋, <br/>I am a passionate,
           <br />
